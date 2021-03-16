@@ -1,0 +1,1 @@
+Write a function called repeat_string which repeats the given string str exactly count times.
