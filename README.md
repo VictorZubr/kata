@@ -1,1 +1,1 @@
-# kata
+# Codewars kata
