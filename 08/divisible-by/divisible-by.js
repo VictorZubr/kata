@@ -1,0 +1,1 @@
+const divisibleBy = (arr , n) => arr.filter(it => it % n === 0);
