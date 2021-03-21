@@ -1,0 +1,1 @@
+const feast = (beast, dish) => beast.startsWith(dish.slice(0,1)) && beast.endsWith(dish.slice(-1))
