@@ -1,0 +1,1 @@
+const isDivideBy = (number, ...divisors) => divisors.every(divisor => number % divisor === 0);
