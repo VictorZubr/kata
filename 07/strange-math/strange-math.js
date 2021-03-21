@@ -1,0 +1,1 @@
+const strangeMath = (n, k) => Array.from({length: n}, (_, i) => `${i + 1}`).sort().indexOf(`${k}`) + 1;
