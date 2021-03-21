@@ -1,0 +1,1 @@
+const stringy = size => Array.from({length: size}, (_, i) => (i + 1) % 2).join('');
