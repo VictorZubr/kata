@@ -1,0 +1,1 @@
+const countLanguages = list => list.reduce((acc, item) => ({...acc, [item.language]: (acc[item.language] || 0) + 1}), {})
