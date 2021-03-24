@@ -1,0 +1,1 @@
+const solve = stones => stones.split('').reduce((acc, stone, i, arr) => stone === arr[i + 1] ? ++acc : acc, 0)
