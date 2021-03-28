@@ -7,10 +7,3 @@ const add = (x, y) => {
 
     return x;
 }
-
-/*
-while(y != 0) {
-    carry = x & y;
-    x = x ^ y;
-    y = carry << 1;
-}*/
