@@ -7,21 +7,17 @@ const bestMatch = (ALAHLYGoals, zamalekGoals) => {
         const z = zamalekGoals[i];
         const diff = a - z;
 
-        if (diff > difference) {
-            continue;
+        if (diff < difference) {
+            difference = diff;
+            goals = z;
+            index = i;
         }
 
-        if (diff === difference) {
-            if (z > goals) {
-                index = i;
-                goals = z;
-            }
-            continue;
+        if (diff === difference && z > goals) {
+            goals = z;
+            index = i;
         }
 
-        difference = diff;
-        goals = z;
-        index = i;
     }
 
     return index;
