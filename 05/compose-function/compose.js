@@ -1,0 +1,1 @@
+const compose = (n, ...functions) => functions.reduce((arg, fn) => fn(arg), n);
