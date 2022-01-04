@@ -1,0 +1,1 @@
+const dutyFree = (normPrice, discount, hol) => Math.floor(hol * 100 / normPrice / discount);
